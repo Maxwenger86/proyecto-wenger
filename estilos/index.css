@@ -28,19 +28,25 @@ body {
         "footer";
 }
 /*para celular*/
-@media (min-width: 390px){
+@media (max-width: 390px){
 .grid-container{
     display: grid;
     gap: 5px;
     grid-template:
         "header" 100px
-        "nav"    100px
+        "nav"    200px
         "main"   auto
         "footer" 50px;
  }
+    .menu-items{
+        flex-direction: column;
+    }
+    .redes-container{
+        flex-direction: column;
+    }
   }
 /*para tablet*/
-@media screen, (min-width: 600px) {
+@media screen, (max-width: 600px) {
     .grid-container {
         grid-template-columns: 200px auto;
         grid-template-areas: 100px 50px auto 100px;
@@ -53,7 +59,7 @@ body {
     }
 }
 /*desktop*/
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
     .grid-container {
         grid-template: 
         "header  header header" 150px
@@ -83,7 +89,7 @@ body {
 .menu-items{
     display: flex;
     list-style: none;
-    margin-right: 30px;
+    margin: center;
 }
 .menu-items li{
     border-radius: 3px;
