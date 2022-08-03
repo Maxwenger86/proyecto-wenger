@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0 maximun-scale=1.0 minimun-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50obBUHEmvPQ+1lW4y7PTFmhCaxp0ML5d60;1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymius">
+    <link rel="stylesheet" href="../Estilos/INDEX.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="icon" href="../Imagenes/ICO.jpeg">
+    <title>TODO INSUMOS SRL</title>
+</head>
+
+<body>
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <img src="../imagenes/logo2.PNG" class="img-fluid mx-auto d-block" alt="logo">
+          </div>
+      </div>
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="../paginas/nosotros.html">NOSOTROS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../paginas/producos.html">PRODUCTOS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../paginas/preguntas frecuentes.html">PREGUNTAS FRECUENTES</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="../paginas/precios.html">PRECIOS </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../paginas/contacto.html">CONTACTO</a>
+          </li>
+      </ul>
+   
+   <div class="container-fluid"> 
+            <article class="main">    
+                <section class="precios-contenedor">
+                    <div class="caja1">
+                        <h2 class="promo-container">PROMO GUANTES LATEX</h2>
+                        <li>1 Cajón $5.200</li>
+                        <li>5 Cajones $4.900 C/U</li>
+                        <li>10 Cajones $4.400 C/U</li>
+                    </div>
+
+                    <div class="caja2">
+                        <h2 class="promo-container">PROMO GUANTES NITRILO CELESTES</h2>
+                        <li>1 Cajón $7.600</li>
+                        <li>5 Cajones $7.100 C/U</li>
+                        <li>10 Cajones $6.700 C/U</li>
+                    </div>
+
+                    <div class="caja3">
+                        <h2 class="promo-container">PROMO GUANTES NITRILO NEGROS</h2>
+                        <li>1 Cajón $7.700</li>
+                        <li>5 Cajones $7.100 C/U</li>
+                        <li>10 Cajones $6.900 C/U</li>
+                    </div>
+                </section>
+                </article>
+        </div>            
+
+     
+     
+    <footer class="footer">
+        <div class="redes-container">
+            <ul>
+                <li><a href="#" class="facebook"> <i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://instagram.com/todoinsumoss?igshid=YmMyMTA2M2Y=" class="instagram" target="_blank"> <i class="fab fa-instagram"></i></a></li>
+                <li><a href=https://api.whatsapp.com/send?phone=541134762168&text=%C2%A1Hola%21+Estoy+en+la+tienda+Todo+Insumos+y+quiero+pedir+m%C3%A1s+informaci%C3%B3n. class="whatsapp" target="_blank"> <i class="fab fa-whatsapp"></i></a></li>
+            </ul>
+         </div>     
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
