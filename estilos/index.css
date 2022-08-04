@@ -106,8 +106,6 @@ body {
     background: var(--whatsapp);
 }
 
-
-
 form{
     width: 450px;
     margin: auto;
@@ -219,3 +217,4 @@ h5{
     text-decoration: none;
     text-transform: uppercase;
 }
+
