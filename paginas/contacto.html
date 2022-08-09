@@ -36,17 +36,23 @@
       </ul>
             
       <div class="container">
-                <article class="main">   
-                    <section>
-                        <form action="enviar.php" method="post"> 
-                        <h2 class="contacto">CONTACTO</h2>
-                            <input type="text" name="Nombre" placeholder="Nombre" required>
-                            <input type="text" name="Correo" placeholder="Correo" required>
-                            <input type="text" name="Telefono" placeholder="Telefono" required>
-                            <textarea name="mensaje" placeholder="Escriba aqui su mensaje" required></textarea>
-                            <input type="submit" value="ENVIAR" id="boton"> 
-                        </form>
-                    </section>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label fw-bolder">Contacto</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre y Apellido">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label fw-bolder">Correo</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="tucorreo@gmail.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label fw-bolder">Telefono</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="...">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label fw-bolder">Escriba aqui su mensaje</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <button type="button" class="btn btn-primary btn-lg btn-block">Enviar</button>
     </div>
 
 
