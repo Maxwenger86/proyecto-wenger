@@ -1,0 +1,214 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0; }
+
+html {
+  height: 100%; }
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2rem;
+  min-height: 100%;
+  background-color: #fff; }
+
+.nav {
+  height: 95px;
+  width: 100vw;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.nav-item .nav-link {
+  background-color: #095c14;
+  color: #fff;
+  font-size: 15px;
+  padding: 5px 25px;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+.nav:hover .nav-link {
+  filter: blur(1px);
+  background-color: #095c14; }
+
+.nav .nav-link:hover {
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 1px 5px 0px rgba(0, 0, 0, 0.1);
+  filter: blur(); }
+
+.main {
+  grid-area: main; }
+
+.footer {
+  grid-area: footer; }
+
+.redes-container ul li {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+:root {
+  --facebook: #3b5999 ;
+  --instagram: #e4405f;
+  --twitter: #55acee;
+  --whatsapp: #00bb2d; }
+
+.footer, .redes-container {
+  display: flex;
+  height: 200px;
+  align-items: center;
+  justify-content: center; }
+
+.redes-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end; }
+
+.redes-container ul li {
+  display: inline-block;
+  margin: 0 5px;
+  width: 50px;
+  height: 50px;
+  text-align: center; }
+
+.redes-container ul li a {
+  display: block;
+  padding: 1px 10px;
+  background-color: #095c14;
+  color: #fff;
+  line-height: 50px;
+  font-size: 18px;
+  box-shadow: 0 1px 5px 0px rgba(0, 0, 0, 0.2);
+  transition: .2s; }
+
+.redes-container ul:hover a {
+  filter: blur(2px); }
+
+.redes-container ul li a:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 1px 5px 0px rgba(0, 0, 0, 0.4);
+  filter: none; }
+
+.redes-container ul li .facebook:hover {
+  background: var(--facebook); }
+
+.redes-container ul li .instagram:hover {
+  background: var(--instagram); }
+
+.redes-container ul li .whatsapp:hover {
+  background: var(--whatsapp); }
+
+form {
+  width: 450px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px; }
+
+.contacto {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px; }
+
+input, textarea {
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 5px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none; }
+
+textarea {
+  min-height: 100px;
+  max-height: 300px;
+  min-width: 300px;
+  max-width: 410px; }
+
+#boton {
+  background: #333;
+  color: #fff;
+  padding: 20px; }
+
+#boton:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 1px 5px 0px rgba(0, 0, 0, 0.4);
+  filter: none;
+  cursor: pointer; }
+
+@media (max-width: 480px) {
+  form {
+    width: 100%; } }
+
+.envio-container {
+  background-color: #fff; }
+
+.card-text {
+  align-items: center;
+  column-gap: 10px;
+  grid-template-columns: auto auto;
+  display: flex;
+  margin: auto;
+  padding: auto;
+  width: 85%;
+  row-gap: 10px;
+  justify-content: space-around;
+  align-items: flex-end; }
+
+.card-text {
+  background-color: #095c14;
+  color: #fff;
+  display: grid;
+  justify-content: center; }
+
+.precios-contenedor {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 10px;
+  width: auto; }
+
+.precios-container {
+  background-color: #027211;
+  color: #fff;
+  display: grid;
+  justify-content: center; }
+
+.precios-container:hover {
+  filter: blur(1px);
+  background-color: #027211;
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 1px 5px 0px rgba(0, 0, 0, 0.4);
+  filter: none; }
+
+/*contacto*/
+h5 {
+  background-color: #696868;
+  display: block;
+  color: #fff;
+  font-size: 18px;
+  padding: 7px 13px;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+/*precios*/
+.promo-container {
+  background-color: #095c14;
+  display: block;
+  color: #fff;
+  font-size: 18px;
+  padding: 7px 13px;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 500px; }
