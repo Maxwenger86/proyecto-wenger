@@ -37,35 +37,34 @@ body {
 .main {
   grid-area: main; }
 
-.footer {
-  grid-area: footer; }
-
 :root {
   --facebook: #3b5999 ;
   --instagram: #e4405f;
   --twitter: #55acee;
   --whatsapp: #00bb2d; }
 
-.footer .redes-container {
-  display: flex;
-  height: 400px;
-  align-items: center;
-  justify-content: center; }
-  .footer .redes-container .ul li {
-    display: inline-block;
-    margin: 0 5px;
-    width: 50px;
-    height: 50px;
-    text-align: center; }
-    .footer .redes-container .ul li a {
-      display: block;
-      padding: 1px 10px;
-      background-color: #095c14;
-      color: #fff;
-      line-height: 50px;
-      font-size: 18px;
-      box-shadow: 0 1px 5px 0px rgba(0, 0, 0, 0.2);
-      transition: .2s; }
+.footer {
+  grid-area: main; }
+  .footer .redes-container {
+    display: flex;
+    height: 400px;
+    align-items: center;
+    justify-content: center; }
+    .footer .redes-container .ul li {
+      display: inline-block;
+      margin: 0 5px;
+      width: 50px;
+      height: 50px;
+      text-align: center; }
+      .footer .redes-container .ul li a {
+        display: block;
+        padding: 1px 10px;
+        background-color: #095c14;
+        color: #fff;
+        line-height: 50px;
+        font-size: 18px;
+        box-shadow: 0 1px 5px 0px rgba(0, 0, 0, 0.2);
+        transition: .2s; }
 
 .redes-container ul:hover a {
   filter: blur(2px); }

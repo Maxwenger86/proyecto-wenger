@@ -51,9 +51,7 @@ body {
 .main{
     grid-area: main;       
 }
-.footer{
-    grid-area: footer;
-}
+
 :root{
     --facebook: #3b5999 ;
     --instagram: #e4405f;
@@ -62,7 +60,8 @@ body {
 }
 
 .footer{ 
-    
+    grid-area: main;       
+
     .redes-container{
         display: flex;
         height: 400px;
