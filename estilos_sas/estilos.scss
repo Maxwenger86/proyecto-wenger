@@ -30,6 +30,32 @@ body {
     --twitter: #55acee;
     --whatsapp: #00bb2d;
 }
+.precios-contenedor{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 10px;
+    width: auto;
+    flex-wrap: wrap;
+
+    .promo-container{
+        background-color:#095c14;
+        display: block;
+        color: #fff;    
+        font-size: 18px;
+        padding: 7px 13px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+}
+
+.carousel-inner{ 
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 500px;
+    }
+
 
 
 .nav{
@@ -58,9 +84,6 @@ body {
     filter: none;
    
 }
-
-
-   
 
     .redes-container{
         display: flex;
@@ -108,28 +131,3 @@ body {
 }
 
 
-.precios-contenedor{
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
-    padding: 10px;
-    width: auto;
-    flex-wrap: wrap;
-
-    .promo-container{
-        background-color:#095c14;
-        display: block;
-        color: #fff;    
-        font-size: 18px;
-        padding: 7px 13px;
-        text-decoration: none;
-        text-transform: uppercase;
-    }
-}
-
-.carousel-inner{ 
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    height: 500px;
-    }
