@@ -18,6 +18,19 @@ body {
     min-height: 100%;
     background-color:#fff;
 }
+.main{
+    grid-area: main;       
+}
+.footer{ 
+    grid-area: main;    
+
+:root{
+    --facebook: #3b5999 ;
+    --instagram: #e4405f;
+    --twitter: #55acee;
+    --whatsapp: #00bb2d;
+}
+
 
 .nav{
     display: flex;
@@ -46,19 +59,8 @@ body {
    
 }
 
-.main{
-    grid-area: main;       
-}
 
-:root{
-    --facebook: #3b5999 ;
-    --instagram: #e4405f;
-    --twitter: #55acee;
-    --whatsapp: #00bb2d;
-}
-
-.footer{ 
-    grid-area: main;       
+   
 
     .redes-container{
         display: flex;
