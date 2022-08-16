@@ -1,11 +1,7 @@
 @import "config.scss";
 @import "variables.scss";
 
-$color-primaro:#095c14;
-
-$tipografia-general: 'Times New Roman', Times, serif;
-
-$fuente-normal:1.2rem;
+$color-primario: #095c14;
 
 *{
     box-sizing: border-box;
@@ -40,12 +36,14 @@ body {
 
 .nav:hover .nav-link{
     filter: blur(2px);
-    background-color:#095c14;
+    background-color:#095c13;
+    transition: 0.3s;
 }
 .nav .nav-link:hover{
     transform: translateY(-3px) scale(1.05);
-    box-shadow: 0 1px 5px 0px rgba(0, 0, 0, .4);
+    box-shadow: 1 0px 0px 0px rgba(0, 0, 0, .4);
     filter: none;
+   
 }
 
 .main{
