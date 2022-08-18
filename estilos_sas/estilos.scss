@@ -1,5 +1,6 @@
-@import "config.scss";
-@import "variables.scss";
+@import './variables';
+@import './mixins';
+@import './config';
 
 $color-primario: #095c14;
 
@@ -24,13 +25,49 @@ body {
     
     }
 }
-
 :root{
     --facebook: #3b5999 ;
     --instagram: #e4405f;
     --twitter: #55acee;
     --whatsapp: #00bb2d;
 }
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        &:hover .nav-link{
+        transition: 0.20s;
+        
+        
+     }
+
+        .navbar{
+                
+	        .nav-link{
+                color: #fff;    
+                padding: 5px 25px;
+                transition: 0.20s;
+                &:hover{
+                    transform: translateY(-3px) scale(1.05);
+                    box-shadow: 1 0px 0px 0px rgba(0, 0, 0, .4);
+                    filter: none;
+                }
+                
+                    .navbar-brand{
+                        background-color:#095c14;
+                        color: #fff;    
+                        font-size: 15px;
+                        padding: 5px 25px;
+                        text-decoration:none;
+                        text-transform: uppercase;
+                        
+               }
+        }
+    }
+}
+
+
 .precios-contenedor{
     display: flex;
     justify-content: space-around;
@@ -50,46 +87,18 @@ body {
     }
 }
 
+
+
 .carousel_primario{
            
-        .carousel_secundario{ 
-        position: relative;
-        width: 100%;
-        overflow: hidden;
-        height: 500px;
-            
-    }
+    .carousel_secundario{ 
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 500px;
+        
 }
-
-
-.nav{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-		
-	.nav-link .navbar-brand{
-    		background-color:#095c14;
-   		    color: #fff;    
-    		font-size: 15px;
-    		padding: 5px 25px;
-    		text-decoration: none;
-    		text-transform: uppercase;
-        }
 }
-
-.nav:hover .nav-link{
-    filter: blur(2px);
-    background-color:#095c13;
-    transition: 0.3s;
-}
-.nav .nav-link:hover{
-    transform: translateY(-3px) scale(1.05);
-    box-shadow: 1 0px 0px 0px rgba(0, 0, 0, .4);
-    filter: none;
-   
-}
-
-
 
 .footer{ 
     grid-area: main;    
@@ -100,43 +109,54 @@ body {
         align-items: center;
         justify-content: center;
 
-        .ul li{
-            display: inline-block;
-            margin: 0 5px;
-            width: 50px;
-            height: 50px;
-            text-align: center;
-
-            a{
-                display: block;
-                padding: 1px 10px;
-                background-color: #095c14;
-                color: #fff;
-                line-height: 50px; 
-                font-size: 18px;
-                box-shadow: 0 1px 5px 0px rgba(0, 0, 0, .2);
-                transition: .2s;
-             }
-        }       
+            .ul{
+                ul:hover {
+                    filter: blur(2px);
+                    transform: translateY(-3px) scale(1.05);
+                    box-shadow: 0 1px 5px 0px rgba(0, 0, 0, .4);
+                    filter: none;
+                }
+                li{
+                    display: inline-block;
+                    margin: 0 5px;
+                    width: 50px;
+                    height: 50px;
+                    text-align: center;
+                    &:hover{
+                        transform: translateY(-3px) scale(1.05);
+                        box-shadow: 0 1px 5px 0px rgba(0, 0, 0, .4);
+                        filter: none;
+                    
+                    }
+                        a{
+                            display: block;
+                            padding: 1px 10px;
+                            background-color: #095c14;
+                            color: #fff;
+                            line-height: 50px; 
+                            font-size: 18px;
+                            box-shadow: 0 1px 5px 0px rgba(0, 0, 0, .2);
+                            transition: .2s;
+                            &:hover{
+                                transform: translateY(-3px) scale(1.05);
+                                box-shadow: 0 1px 5px 0px rgba(0, 0, 0, .4);
+                                filter: none;
+                            }
+                        }
+                    }
+                }
+            
+       }
     }
-}
 
-.redes-container ul:hover a{
-    filter: blur(2px);
-}
-.redes-container ul li a:hover{
-    transform: translateY(-3px) scale(1.05);
-    box-shadow: 0 1px 5px 0px rgba(0, 0, 0, .4);
-    filter: none;
-}
-.redes-container ul li .facebook:hover{
-    background: var(--facebook);
-}
-.redes-container ul li .instagram:hover{
-    background: var(--instagram);
-}
-.redes-container ul li .whatsapp:hover{
-    background: var(--whatsapp);
-}
-
+    .redes-container ul li .facebook:hover{
+        background: var(--facebook);
+    }
+    .redes-container ul li .instagram:hover{
+        background: var(--instagram);
+    }
+    .redes-container ul li .whatsapp:hover{
+        background: var(--whatsapp);
+    }
+   
 
