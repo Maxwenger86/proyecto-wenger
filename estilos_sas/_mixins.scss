@@ -1,0 +1,17 @@
+/*precios-contenedor*/
+@mixin flex-wrap-space-around{
+    display: flex;
+    flex-wrap: wrap;   
+    justify-content: space-around;
+}
+
+/*redes*/
+@mixin redes($nombre){ 
+    @if $nombre == facebook{
+        color: #3b5999;
+    }@else if $nombre == instagram{ 
+        color: #e4405f;
+    }@else if $nombre == whatsapp{
+        color: #00bb2d;
+    }
+}

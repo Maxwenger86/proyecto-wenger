@@ -1,0 +1,20 @@
+footer{
+    text-align: map-get($estilos,centro);
+    font-size: map-get($estilos, tfuente);
+    padding: map-get($estilos, 1px 10px);
+}
+
+.facebook{
+    @include redes (facebook);
+}
+.instagram{
+    @include redes (instagram);
+}
+
+.whatsapp{
+    @include redes (whatsapp);
+}
+
+.precios-contenedor{
+    @include flex-wrap-space-around;
+}
