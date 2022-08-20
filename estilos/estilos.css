@@ -98,6 +98,12 @@ body {
     height: 400px;
     align-items: center;
     justify-content: center; }
+    .footer .redes-container .redes-container ul li .facebook:hover {
+      background: var(--facebook); }
+    .footer .redes-container .redes-container ul li .instagram:hover {
+      background: var(--instagram); }
+    .footer .redes-container .redes-container ul li .whatsapp:hover {
+      background: var(--whatsapp); }
     .footer .redes-container .ul ul:hover {
       filter: blur(2px);
       transform: translateY(-3px) scale(1.05);
@@ -127,11 +133,12 @@ body {
           box-shadow: 0 1px 5px 0px rgba(0, 0, 0, 0.4);
           filter: none; }
 
-.redes-container ul li .facebook:hover {
-  background: var(--facebook); }
-
-.redes-container ul li .instagram:hover {
-  background: var(--instagram); }
-
-.redes-container ul li .whatsapp:hover {
-  background: var(--whatsapp); }
+/*.redes-container ul li .facebook:hover{
+        background: var(--facebook);
+    }
+    .redes-container ul li .instagram:hover{
+        background: var(--instagram);
+    }
+    .redes-container ul li .whatsapp:hover{
+        background: var(--whatsapp);
+    }*/

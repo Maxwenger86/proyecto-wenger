@@ -111,8 +111,18 @@ body {
         align-items: center;
         justify-content: center;
 
+        .redes-container ul li .facebook:hover{
+            background: var(--facebook);
+        }
+        .redes-container ul li .instagram:hover{
+            background: var(--instagram);
+        }
+        .redes-container ul li .whatsapp:hover{
+            background: var(--whatsapp);
+        }
+       
             .ul{
-                ul:hover {
+                ul:hover{
                     filter: blur(2px);
                     transform: translateY(-3px) scale(1.05);
                     box-shadow: 0 1px 5px 0px rgba(0, 0, 0, .4);
@@ -151,14 +161,5 @@ body {
        }
     }
 
-    .redes-container ul li .facebook:hover{
-        background: var(--facebook);
-    }
-    .redes-container ul li .instagram:hover{
-        background: var(--instagram);
-    }
-    .redes-container ul li .whatsapp:hover{
-        background: var(--whatsapp);
-    }
    
 
