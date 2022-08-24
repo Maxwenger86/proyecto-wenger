@@ -5,6 +5,16 @@ $altura:100%;
 $tamaño-fuente:18px;
 
 
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);
+
+
+
 $redes:( 
         facebook: #3b5999, 
         instagram:#e4405f,

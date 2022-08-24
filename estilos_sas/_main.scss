@@ -18,3 +18,9 @@ footer{
 .precios-contenedor{
     @include flex-wrap-space-around;
 }
+
+.promo-container{
+    @extend .precios-contenedor;
+    
+}
+

@@ -71,16 +71,17 @@ body {
 
 
 .precios-contenedor{
-    display: flex;
+    
+    
     justify-content: space-around;
     list-style-type: none;
-    padding: 10px;
+    padding: 7px 13px;
     width: auto;
     flex-wrap: wrap;
 
     .promo-container{
         background-color:#095c14;
-        display: block;
+        display: flex;
         color: #fff;    
         font-size: 18px;
         padding: 7px 13px;
