@@ -8,7 +8,7 @@
 /*redes*/
 @mixin redes($nombre){ 
     @if $nombre == facebook{
-        color: #3b5999;
+    background-color:  #3b5999;
     }@else if $nombre == instagram{ 
         color: #e4405f;
     }@else if $nombre == whatsapp{
