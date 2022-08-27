@@ -39,40 +39,27 @@ body {
   min-height: 100%;
   background-color: #fff; }
 
-.article .main {
-  grid-area: main; }
+.article {
+  padding: 50px; }
+  .article .main {
+    grid-area: main; }
 
 :root {
   --facebook: #3b5999;
   --instagram:#e4405f;
   --whatsapp: #00bb2d; }
 
-.nav {
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-  .nav:hover .nav-link {
-    transition: 0.20s; }
-  .nav .navbar .nav-link {
-    color: #fff;
-    padding: 5px 25px;
-    transition: 0.20s; }
-    .nav .navbar .nav-link:hover {
-      transform: translateY(-3px) scale(1.05);
-      box-shadow: 1 0px 0px 0px rgba(0, 0, 0, 0.4);
-      filter: none; }
-    .nav .navbar .nav-link .navbar-brand {
-      background-color: #095c14;
-      color: #fff;
-      font-size: 15px;
-      padding: 5px 25px;
-      text-decoration: none;
-      text-transform: uppercase; }
+.nav .nav-div1 {
+  background-color: #fff; }
+  .nav .nav-div1 .nav-div2 {
+    background-color: #095c14; }
+    .nav .nav-div1 .nav-div2 .navbar-ul .nav-item .navbar-brand {
+      color: #fff; }
 
 .precios-contenedor, .promo-container {
   justify-content: space-around;
   list-style-type: none;
-  padding: 7px 13px;
+  padding: 70px;
   width: auto;
   flex-wrap: wrap; }
   .precios-contenedor .promo-container, .promo-container .promo-container {
@@ -80,15 +67,15 @@ body {
     display: flex;
     color: #fff;
     font-size: 18px;
-    padding: 7px 13px;
+    padding: 1px;
     text-decoration: none;
     text-transform: uppercase; }
 
-.carousel_primario .carousel_secundario {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  height: 500px; }
+.container-contacto {
+  padding: 50px; }
+
+.sec-contenedor {
+  padding: 20px; }
 
 .footer {
   grid-area: main; }
@@ -100,8 +87,7 @@ body {
     .footer .redes-container .ul ul:hover {
       filter: blur(2px);
       transform: translateY(-3px) scale(1.05);
-      box-shadow: 0 1px 5px 0px rgba(0, 0, 0, 0.4);
-      filter: none; }
+      box-shadow: 0 1px 5px 0px rgba(0, 0, 0, 0.4); }
     .footer .redes-container .ul li {
       display: inline-block;
       margin: 0 5px;
