@@ -73,6 +73,12 @@ body {
 
 .container-contacto {
   padding: 20px; }
+  .container-contacto .form-group {
+    padding: 5px; }
+    .container-contacto .form-group .form-row {
+      padding: 1px; }
+      .container-contacto .form-group .form-row .form-control {
+        padding: 3px; }
 
 .sec-contenedor {
   padding: 20px; }
