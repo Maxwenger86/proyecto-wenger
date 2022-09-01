@@ -49,23 +49,22 @@
 </nav>
             
       <div class="container-contacto">
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label fw-bolder">Contacto</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre y Apellido">
+        <form target="_blank" action="https://formsubmit.co/Admtodoinsumos@gmail.com" method="POST">
+          <div class="form-group">
+            <div class="form-row">
+              <div class="col">
+                <input type="text" name="name" class="form-control" placeholder="Nombre" required>
+              </div>
+              <div class="col">
+                <input type="email" name="email" class="form-control" placeholder="Correo" required>
+              </div>
+            </div>
           </div>
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label fw-bolder">Correo</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="tucorreo@gmail.com">
+          <div class="form-group">
+            <textarea placeholder="Your Message" class="form-control" name="Escriba su mensaje" rows="10" required></textarea>
           </div>
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label fw-bolder">Telefono</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="...">
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label fw-bolder">Escriba aqui su mensaje</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
-          <button type="button" class="btn btn-success btn-lg btn-block">Enviar</button>
+          <button type="submit" class="btn btn-lg btn-success btn-block">Enviar</button>
+        </form>
     </div>
 
 
