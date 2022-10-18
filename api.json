@@ -1,0 +1,26 @@
+[
+  {
+    "precio": 5100,
+    "id": 1,
+    "title": "Guantes Latex /cajón",
+    "thumbnailUrl": "https://img.freepik.com/fotos-premium/dos-manos-masculinas-guantes-latex-azul-palmas-medico-sobre-fondo-blanco-vista-superior_116441-16079.jpg?w=2000"
+  },
+  {
+    "precio": 7200,
+    "id": 2,
+    "title": "Guantes Nitrilo /cajón",
+    "thumbnailUrl": "https://tiendup.b-cdn.net/business/78/products/gBPjOp_5ea35a0385730_large.png"
+  },
+  {
+    "precio": 7000,
+    "id": 3,
+    "title": "Cofias /cajón",
+    "thumbnailUrl": "https://magnus.com.ar/wp-content/uploads/2020/10/cofia-2gorro-chino-1.jpg"
+  },
+  {
+    "precio": 6500,
+    "id": 4,
+    "title": "Barbijos /cajón",
+    "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_787227-MLA47015627905_082021-V.jpg"
+  }
+]
