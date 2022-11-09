@@ -1,8 +1,7 @@
-// variables declaradas
 const cards = document.getElementById('cards')
 const items = document.getElementById('items')
 const pie = document.getElementById('pie')
-const templateCard = document.getElementById('template-card').content   
+const templateCard = document.getElementById('template-card').content
 const templatePie = document.getElementById('template-pie').content
 const templateCarrito = document.getElementById('template-carrito').content
 const fragment = document.createDocumentFragment()
@@ -25,7 +24,7 @@ items.addEventListener('click', e => {
 
 const fetchData = async () => {
     try {
-        const res = await fetch("/api.json")
+        const res = await fetch("api.json")
         const data = await res.json()
         //console.log(data)
         pintarCards(data)
@@ -82,14 +81,6 @@ const pintarCarrito = () => {
         templateCarrito.querySelector('span').textContent = producto.cantidad * producto.precio
         const clone = templateCarrito.cloneNode(true)
         fragment.appendChild(clone)
-        Swal.fire({
-            title: 'Excelente!',
-            text: 'Se agregó este producto.',
-            imageUrl:  "https://lh3.googleusercontent.com/p/AF1QipP-6PE-_ZprUg-3f0vNuagjQoy5wXugyS2oWERr=w1080-h608-p-no-v0",
-            imageWidth: 400,
-            imageHeight: 200,
-            imageAlt: 'Custom image',
-          })
     })
     items.appendChild(fragment)
 
@@ -145,7 +136,5 @@ const btnAccion = e => {
     }
     e.stopPropagation()
 }
-
-
 
 
