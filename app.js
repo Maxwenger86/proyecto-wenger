@@ -117,10 +117,16 @@ const pintarPie = () => {
 
         pie.appendChild(fragment)
 
+
+        const btnFinalizar = document.getElementById('finalizar-compra')
+        btnFinalizar.addEventListener ('click', () => {
+            Swal.fire('Se finalizó corractamente')
+        }) 
         const btnVaciar = document.getElementById('vaciar-carrito')
         btnVaciar.addEventListener('click',() => {
             carrito = {}
             pintarCarrito()
+            
         })
 }
 
@@ -145,7 +151,6 @@ const btnAccion = e => {
     }
     e.stopPropagation()
 }
-
 
 
 
