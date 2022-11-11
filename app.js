@@ -88,6 +88,7 @@ const pintarCarrito = () => {
             imageUrl:  "https://lh3.googleusercontent.com/p/AF1QipP-6PE-_ZprUg-3f0vNuagjQoy5wXugyS2oWERr=w1080-h608-p-no-v0",
             imageWidth: 400,
             imageHeight: 200,
+            //agrego imagen
             imageAlt: 'Custom image',
           })
     })
